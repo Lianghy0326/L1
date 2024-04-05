@@ -43,3 +43,71 @@
     z-index: 1;
 }
   
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Picture */
+.picture {
+    width: 600px; 
+    height: 400px; 
+    object-fit: cover; 
+    object-position: center; 
+}
+
+/* Contact Us Form */
+.contact-form {
+    margin: 20px; /* interval */
+    padding: 20px; /* padding */
+    border: 1px solid #ccc; /* 編筐 */
+    border-radius: 5px; /* 圓筐邊角 */
+    background-color: #f9f9f9; /* 背景顏色色 */
+  }
+  
+  /* LABEL */
+  .contact-form label {
+    display: block; /* form-block */
+    margin-bottom: 5px; /* label和下面元素間距 */
+    font-weight: bold; /* 粗體字 */
+  }
+  
+  /* 輸入打字匡的樣式 */
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%; /* 輸入寬度 */
+    padding: 8px; /* 輸入匡padding */
+    margin-bottom: 10px; /* 輸入匡與下方元素間距 */
+    border: 1px solid #ccc; /* 邊匡 */
+    border-radius: 3px; 
+  }
+  
+  /* 提交的bottom */
+  .contact-form input[type="submit"] {
+    background-color: #4CAF50; /* bottom背景色 */
+    color: white; /* bottom字顏色 */
+    padding: 10px 20px; /* bottom內間距 */
+    border: none; /* no border */
+    border-radius: 3px; /* bottom邊匡circle角 */
+    cursor: pointer; /* 鼠標為手 */
+  }
+  
+  /* 提交bottom */
+  .contact-form input[type="submit"]:hover {
+    background-color: #45a049; /* 鼠標移上去的顏色 */
+  }
+  
